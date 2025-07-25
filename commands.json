@@ -1,0 +1,5 @@
+[
+  { "command": "/ping", "reply": "pong!" },
+  { "command": "/hi", "reply": "Hello! I am your bot 🤖" },
+  { "command": "/bye", "reply": "Goodbye 👋" }
+]
