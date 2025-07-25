@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fb-messenger-command-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt && playwright install
+    startCommand: python main.py
+    plan: free
